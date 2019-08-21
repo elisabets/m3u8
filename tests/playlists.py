@@ -651,6 +651,281 @@ CUE_OUT_ENVIVIO_PLAYLIST = '''
 20160914T080055-master804-199/1710.ts
 '''
 
+CUE_OUT_UNIFIEDSTREAMING_VOD_PLAYLIST = '''
+#EXTM3U
+#EXT-X-VERSION:3
+## Created with Unified Streaming Platform (version=1.10.11-18649)
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-TARGETDURATION:11
+#USP-X-MEDIA:BANDWIDTH=143000,AVERAGE-BANDWIDTH=116000,TYPE=VIDEO,GROUP-ID="video-avc1-90",NAME="video",AUTOSELECT=YES,CODECS="avc1.4D4020",RESOLUTION=256x144,FRAME-RATE=25
+#EXT-X-PROGRAM-DATE-TIME:1970-01-01T00:00:00Z
+#EXTINF:10, no desc
+track_20.ts
+#EXTINF:10, no desc
+track_21.ts
+#EXTINF:10, no desc
+track_22.ts
+#EXTINF:10, no desc
+track_23.ts
+#EXTINF:10, no desc
+track_24.ts
+#EXTINF:10, no desc
+track_25.ts
+#EXTINF:10, no desc
+track_26.ts
+#EXTINF:10, no desc
+track_27.ts
+#EXTINF:10, no desc
+track_28.ts
+#EXTINF:10, no desc
+track_29.ts
+#EXTINF:10, no desc
+track_210.ts
+#EXTINF:10, no desc
+track_211.ts
+#EXTINF:10, no desc
+track_212.ts
+#EXTINF:10, no desc
+track_213.ts
+#EXTINF:10, no desc
+track_214.ts
+#EXTINF:10, no desc
+track_215.ts
+#EXTINF:10, no desc
+track_216.ts
+#EXTINF:10, no desc
+track_217.ts
+#EXTINF:10, no desc
+track_218.ts
+#EXTINF:10, no desc
+track_219.ts
+#EXTINF:10, no desc
+track_220.ts
+#EXTINF:10, no desc
+track_221.ts
+#EXTINF:10, no desc
+track_222.ts
+#EXTINF:10, no desc
+track_223.ts
+#EXTINF:10, no desc
+track_224.ts
+#EXTINF:10, no desc
+track_225.ts
+#EXTINF:10, no desc
+track_226.ts
+#EXTINF:10, no desc
+track_227.ts
+#EXTINF:10, no desc
+track_228.ts
+#EXTINF:10, no desc
+track_229.ts
+#EXTINF:10, no desc
+track_230.ts
+#EXTINF:10, no desc
+track_231.ts
+#EXTINF:10, no desc
+track_232.ts
+#EXTINF:10, no desc
+track_233.ts
+#EXTINF:10, no desc
+track_234.ts
+#EXTINF:10, no desc
+track_235.ts
+#EXTINF:10, no desc
+track_236.ts
+#EXTINF:10, no desc
+track_237.ts
+#EXTINF:10, no desc
+track_238.ts
+#EXTINF:10, no desc
+track_239.ts
+#EXTINF:10, no desc
+track_240.ts
+#EXTINF:10, no desc
+track_241.ts
+#EXTINF:10, no desc
+track_242.ts
+#EXTINF:10, no desc
+track_243.ts
+#EXTINF:10, no desc
+track_244.ts
+#EXTINF:10, no desc
+track_245.ts
+#EXTINF:10, no desc
+track_246.ts
+#EXTINF:10, no desc
+track_247.ts
+#EXTINF:10, no desc
+track_248.ts
+#EXTINF:10, no desc
+track_249.ts
+#EXTINF:10, no desc
+track_250.ts
+#EXTINF:10, no desc
+track_251.ts
+#EXTINF:10, no desc
+track_252.ts
+#EXTINF:10, no desc
+track_253.ts
+#EXTINF:10, no desc
+track_254.ts
+#EXTINF:10, no desc
+track_255.ts
+#EXTINF:10, no desc
+track_256.ts
+#EXTINF:10, no desc
+track_257.ts
+#EXTINF:10, no desc
+track_258.ts
+#EXTINF:10, no desc
+track_259.ts
+#EXTINF:10, no desc
+track_260.ts
+#EXTINF:10, no desc
+track_261.ts
+#EXTINF:10, no desc
+track_262.ts
+#EXTINF:10, no desc
+track_263.ts
+#EXTINF:10, no desc
+track_264.ts
+#EXTINF:10, no desc
+track_265.ts
+#EXTINF:10, no desc
+track_266.ts
+#EXTINF:10, no desc
+track_267.ts
+#EXTINF:10, no desc
+track_268.ts
+#EXTINF:10, no desc
+track_269.ts
+#EXTINF:10, no desc
+track_270.ts
+#EXTINF:10, no desc
+track_271.ts
+#EXTINF:10, no desc
+track_272.ts
+#EXTINF:10, no desc
+track_273.ts
+#EXTINF:10, no desc
+track_274.ts
+#EXTINF:10, no desc
+track_275.ts
+#EXTINF:10, no desc
+track_276.ts
+#EXTINF:10, no desc
+track_277.ts
+#EXTINF:10, no desc
+track_278.ts
+#EXTINF:10, no desc
+track_279.ts
+#EXTINF:10, no desc
+track_280.ts
+#EXTINF:10, no desc
+track_281.ts
+#EXTINF:10, no desc
+track_282.ts
+#EXTINF:10, no desc
+track_283.ts
+#EXTINF:10, no desc
+track_284.ts
+#EXTINF:10, no desc
+track_285.ts
+#EXTINF:10, no desc
+track_286.ts
+#EXTINF:10, no desc
+track_287.ts
+#EXTINF:10, no desc
+track_288.ts
+#EXTINF:10, no desc
+track_289.ts
+#EXTINF:10, no desc
+track_290.ts
+#EXTINF:10, no desc
+track_291.ts
+#EXTINF:10, no desc
+track_292.ts
+#EXTINF:10, no desc
+track_293.ts
+#EXTINF:10, no desc
+track_294.ts
+#EXTINF:10, no desc
+track_295.ts
+#EXTINF:10, no desc
+track_296.ts
+#EXTINF:10, no desc
+track_297.ts
+#EXTINF:10, no desc
+track_298.ts
+#EXTINF:10, no desc
+track_299.ts
+#EXTINF:10, no desc
+track_2100.ts
+#EXTINF:10, no desc
+track_2101.ts
+#EXTINF:10, no desc
+track_2102.ts
+#EXTINF:10, no desc
+track_2103.ts
+#EXTINF:10, no desc
+track_2104.ts
+#EXTINF:10, no desc
+track_2105.ts
+#EXTINF:10, no desc
+track_2106.ts
+#EXTINF:10, no desc
+track_2107.ts
+#EXTINF:10, no desc
+track_2108.ts
+#EXTINF:10, no desc
+track_2109.ts
+#EXTINF:10, no desc
+track_2110.ts
+#EXTINF:10, no desc
+track_2111.ts
+#EXTINF:10, no desc
+track_2112.ts
+#EXTINF:10, no desc
+track_2113.ts
+#EXTINF:10, no desc
+track_2114.ts
+#EXTINF:10, no desc
+track_2115.ts
+#EXTINF:10, no desc
+track_2116.ts
+#EXTINF:10, no desc
+track_2117.ts
+#EXTINF:10, no desc
+track_2118.ts
+#EXTINF:10, no desc
+track_2119.ts
+#EXTINF:10, no desc
+track_2120.ts
+#EXTINF:10, no desc
+track_2121.ts
+#EXTINF:10, no desc
+track_2122.ts
+#EXTINF:10, no desc
+track_2123.ts
+#EXTINF:8, no desc
+track_2124.ts
+#EXT-X-DATERANGE:ID="0",START-DATE="1970-01-01T00:20:48Z",SCTE35-OUT=0xFC302000000000000000FFF00F05000000007FFF7E000000000000000000003E3124FF
+#EXT-X-CUE-OUT
+#EXT-X-CUE-IN
+#EXTINF:10, no desc
+track_2125.ts
+#EXTINF:10.08, no desc
+track_2126.ts
+#EXT-X-DATERANGE:ID="2",START-DATE="1970-01-01T00:49:54.080000Z",SCTE35-OUT=0xFC302000000000000000FFF00F05000000027FFF7E00000000000000000000B1DEB97D
+#EXT-X-CUE-OUT
+#EXT-X-CUE-IN
+#EXTINF:1.04, no desc
+track_2127.ts
+#EXT-X-ENDLIST
+'''
+
 MULTI_MEDIA_PLAYLIST = '''#EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-MEDIA:URI="chinese/ed.ttml",TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="zho",NAME="Chinese",AUTOSELECT=YES,FORCED=NO

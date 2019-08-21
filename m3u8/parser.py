@@ -340,8 +340,20 @@ def _cueout_envivio(line, state, prevline):
     else:
         return None
 
+# Added 16Aug 2019 to support for VOD Unified streaming annotation
+def _cueout_unifiedstreaming(line, state, prevline):
+    # param, value = line.split(':', 1)
+    value = line
+    res = re.match('.*SCTE35-OUT=(.*)$', prevline)
+    if res:
+        return (res.group(1), value)
+    else:
+        return None
+
 def _parse_cueout_start(line, state, prevline):
-    _cueout_state = _cueout_elemental(line, state, prevline) or _cueout_envivio(line, state, prevline)
+    #_cueout_state = _cueout_elemental(line, state, prevline) or _cueout_envivio(line, state, prevline)
+    # Added 16Aug 2019 replaced to support unified streaming for VOD
+    _cueout_state = _cueout_unifiedstreaming(line, state, prevline) or _cueout_elemental(line, state, prevline) or _cueout_envivio(line, state, prevline)
     if _cueout_state:
         state['current_cue_out_scte35'] = _cueout_state[0]
         state['current_cue_out_duration'] = _cueout_state[1]
