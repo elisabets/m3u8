@@ -144,6 +144,7 @@ def test_segment_unifiedstreaming_scte35_attribute():
     assert segments[125].scte35 == '0xFC302000000000000000FFF00F05000000007FFF7E000000000000000000003E3124FF'
     assert segments[126].cue_out == False
 
+
 def test_keys_on_clear_playlist():
     obj = m3u8.M3U8(playlists.SIMPLE_PLAYLIST)
 
